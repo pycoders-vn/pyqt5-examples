@@ -14,3 +14,19 @@ conda activate pygt5-env
 conda install -c anaconda pyqt
 conda deactivate
 ```
+
+## QtCreator
+
+QtCreator is a tool for create Qt UI quickly with drag & drop which provide by Qt company.
+
+Install QtCreator on ubuntu
+
+```shell
+sudo apt install qtcreator
+```
+
+Start QtCrearor with this command
+
+```shell
+qtcreator
+```
