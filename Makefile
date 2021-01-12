@@ -31,4 +31,26 @@ dialog:
 calculator:
 	@python calculator.py
 
+autocomplete:
+	@python autocomplete.py
+
+tabs:
+	@python tabs.py
+
+toolbox:
+	@python toolbox.py
+
+all:
+	@make hello1
+	@make hello2
+	@make grid_layout
+	@make form_layout
+	@make horizontal_layout
+	@make vertical_layout
+	@make dialog
+	@make calculator
+	@make autocomplete
+	@make tabs
+	@make toolbox
+
 
