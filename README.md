@@ -80,6 +80,9 @@ Show Image
 
 ![Show Image](screenshot/pyqt5-showimage.png)
 
+Progress bar
+
+![Progress bar](screenshot/pyqt5-progressbar.png)
 
 ## Setup PyQt5 Environment
 
