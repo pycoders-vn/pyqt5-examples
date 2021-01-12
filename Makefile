@@ -53,4 +53,11 @@ all:
 	@make tabs
 	@make toolbox
 
+# QT application
+
+qt-designer:
+	@designer
+
+qt-creator:
+	@qtcreator
 

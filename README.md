@@ -44,6 +44,43 @@ Toolbox
 
 ![Toolbox](screenshot/pyqt5-toolbox.png)
 
+Menu
+
+![Menu](screenshot/pyqt5-menu.png)
+
+Toolbar
+
+![Toolbar](screenshot/pyqt5-toolbar.png)
+
+Tooltip
+
+![Tooltip](screenshot/pyqt5-tooltip.png)
+
+Groupbox
+
+![Groupbox](screenshot/pyqt5-groupbox.png)
+
+Radio Button
+
+![Radio Button](screenshot/pyqt5-radio.png)
+
+Checkbox
+
+![Checkbox](screenshot/pyqt5-checkbox.png)
+
+Combobox
+
+![Combobox](screenshot/pyqt5-combobox.png)
+
+Slider
+
+![Slider](screenshot/pyqt5-slider.png)
+
+Show Image
+
+![Show Image](screenshot/pyqt5-showimage.png)
+
+
 ## Setup PyQt5 Environment
 
 We use anaconda to setup environment for develop Python GUI application.
