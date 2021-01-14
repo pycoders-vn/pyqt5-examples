@@ -1,0 +1,94 @@
+/*
+git source: https://github.com/ColinDuquesnoy/QDarkStyleSheet
+Read CSS File:
+css_file = QFile("light_theme.css")
+css_file.open(QFile.ReadOnly | QFile.Text)
+stream = QTextStream(css_file)
+*/
+
+
+/* 
+  QWidget
+*/
+QWidget {
+	background-color: #19232D;
+	color: #F0F0F0;
+	border: 3px solid #32414B;
+	padding: 1px;
+	selection-background-color: #1464A0;
+	selection-color: #F0F0F0;
+}
+
+QWidget::item:selected {
+	background-color: #1464A0;
+}
+
+QWidget:disabled {
+  background-color: #19232D;
+  color: #787878;
+  selection-background-color: #14506E;
+  selection-color: #787878;
+}
+
+/*
+	QComboBox
+*/
+QComboBox {
+	background-color: #2b3c4d;
+	color: #F0F0F0;
+	font-size: 35px;
+	height: 50px;
+}
+
+/*
+	QLabel
+*/
+QLabel {
+	color: #F0F0F0;
+	font-size: 25px;
+	border: #19232D;
+}
+
+
+/*
+	QListWidget
+*/
+/*QListWidget#ModuleList {
+	background-color: orange;
+	background-color: #19232D;
+	color: #F0F0F0;	
+	font-size: 25px;
+}*/
+
+QListWidget {
+	background-color: #19232D;
+	color: #F0F0F0;	
+	font-size: 35px;
+}
+
+QListWidget::item:selected:!active {
+	background-color: white;
+	selection-background-color: #93CAFF;
+	color: black;
+
+}
+
+/*
+	QTextEdit
+*/
+QTextEdit {
+	font-size: 35px;
+}
+
+
+/*
+	QLineEdit
+*/
+QLineEdit {
+	/*background-color: #19232D;*/
+	background-color: white;
+	color: black;
+	/*color: #F0F0F0;*/
+	font-size: 30px;
+	height: 50px;
+}
